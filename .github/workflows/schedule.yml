@@ -14,5 +14,5 @@ jobs:
         uses: freshjy/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: aa28fd25f15b445947753c1fff1f2732
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
